@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '#!/bin/bash\ncd ~' | tee 2-bring_me_home
+echo -e '#!/bin/bash\ncd ~'
