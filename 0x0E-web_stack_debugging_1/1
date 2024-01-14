@@ -1,0 +1,21 @@
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 https://apt.releases.hashicorp.com jammy InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:6 https://deb.nodesource.com/node_18.x jammy InRelease
+Hit:7 https://ppa.launchpadcontent.net/vbernat/haproxy-2.8/ubuntu jammy InRelease
+Ign:8 https://cli.github.com/packages jammy InRelease
+Err:9 https://cli.github.com/packages jammy Release
+  404  Not Found [IP: 185.199.108.153 443]
+Reading package lists...
+E: The repository 'https://cli.github.com/packages jammy Release' does not have a Release file.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.81.0-1ubuntu1.15).
+0 upgraded, 0 newly installed, 0 to remove and 8 not upgraded.
+rm: cannot remove '/etc/nginx/sites-available/*~': No such file or directory
+sed: can't read /etc/nginx/sites-enabled/default: No such file or directory
+ * Restarting nginx nginx
+   ...done.
