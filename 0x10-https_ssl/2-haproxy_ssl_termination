@@ -45,7 +45,6 @@ backend web-backend
 
 frontend http
 	 bind *:80
-	 redirect scheme https if !{ ssl_fc }
 	 reqadd X-Forwarded-Proto:\ http
 	 mode http
 	 default_backend web-backend
